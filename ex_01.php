@@ -15,4 +15,5 @@ $y = 5;
 echo "Valor de x é : $x <br>";
 echo "O vaor de y é: $y <br><br>";
 
+echo "Resultado: ".calcularFormula($x, $y);
 ?>
