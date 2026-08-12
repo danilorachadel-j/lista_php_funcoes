@@ -30,15 +30,15 @@ function converterTemperatura($valor, $origem, $destino) {
             return "Erro: Escala de destino inválida. Use 'C', 'F' ou 'K'.";
     }
 }
-echo "--- Testes do Sensor ---\n";
+echo " Testes do Sensor ";
 
 $f = converterTemperatura(100, 'C', 'F');
-echo "100°C em Fahrenheit: " . round($f, 2) . "°F\n"; 
+echo "100°C em Fahrenheit: " . round($f, 2) . "°F"; 
 
 $c = converterTemperatura(0, 'K', 'C');
-echo "0K em Celsius: " . round($c, 2) . "°C\n"; 
+echo "0K em Celsius: " . round($c, 2) . "°C"; 
 
 $k = converterTemperatura(77, 'F', 'K');
-echo "77°F em Kelvin: " . round($k, 2) . "K\n"; 
+echo "77°F em Kelvin: " . round($k, 2) . "K"; 
 
 ?>
